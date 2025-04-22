@@ -101,7 +101,9 @@ const expoCompatMap: Record<string, Record<string, string>> = {
   "49.0.0": { "react-native": "0.72.6", "react": "18.2.0" },
   "50.0.0": { "react-native": "0.73.4", "react": "18.2.0" },
   "51.0.0": { "react-native": "0.74.1", "react": "18.2.0" },
-  // Add new SDK versions here...
+  "52.0.0": { "react-native": "0.77.0", "react": "18.2.0" },
+  "53.0.0": { "react-native": "0.79.0", "react": "19.0.0" },
+  // Add more SDK versions and their dependencies here
 };
 ```
 

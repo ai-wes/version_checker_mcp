@@ -25,7 +25,9 @@ if (GITHUB_TOKEN) {
 const expoCompatMap: Record<string, Record<string, string>> = {
   "49.0.0": { "react-native": "0.72.6", "react": "18.2.0" },
   "50.0.0": { "react-native": "0.73.4", "react": "18.2.0" },
-  "51.0.0": { "react-native": "0.74.1", "react": "18.2.0" }, // Example future version
+  "51.0.0": { "react-native": "0.74.1", "react": "18.2.0" },
+  "52.0.0": { "react-native": "0.77.0", "react": "18.2.0" }, // Added based on Expo docs (React inferred)
+  "53.0.0": { "react-native": "0.79.0", "react": "19.0.0" }, // Added based on Expo beta blog post
   // Add more SDK versions and their dependencies here
 };
 
