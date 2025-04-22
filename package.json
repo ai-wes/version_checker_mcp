@@ -1,0 +1,32 @@
+{
+  "name": "mcp-version-checker",
+  "version": "1.0.0",
+  "description": "MCP server for checking React/React Native/Expo version compatibility and changelogs.",
+  "main": "version_checker_server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/version_checker_server.js",
+    "dev": "tsc -w & node --watch dist/version_checker_server.js"
+  },
+  "keywords": [
+    "mcp",
+    "react",
+    "react-native",
+    "expo",
+    "version"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0", // Use the appropriate version
+    "node-fetch": "^3.3.2", // For fetching external data
+    "semver": "^7.6.2", // Added for version comparison
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/semver": "^7.5.8", // Added types for semver
+    "typescript": "^5.4.5"
+  }
+} 
